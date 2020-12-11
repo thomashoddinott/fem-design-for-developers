@@ -2,6 +2,8 @@
 
 //todo - find a TOC generator?
 
+https://dribbble.com/
+
 ## Introduction
 
 ### Right vs. Left Brain
@@ -101,4 +103,80 @@ Circles draw you eye more than other shapes.
 
 **Saccade** - Eyes keep scanning - Hunter-Gather origins, etc.
 
-https://frontendmasters.com/courses/design-for-developers/shape/
+**Circles** draw your attention.
+
+They live outside of normal lines though - your eyes compensate:
+
+![image-20201211153750801](img/image-20201211153750801.png)
+
+i.e. `padding: -5px` to make it look natural
+
+**Diagonals are dynamic!** - We mostly use table-based layouts but we also find them in Art!
+
+![image-20201211153919971](img/image-20201211153919971.png)
+
+e.g. used on the web:
+
+![image-20201211154019649](img/image-20201211154019649.png)
+
+### Scale & Cropping
+
+![image-20201211154208744](img/image-20201211154208744.png)
+
+^ examples of how scale and cropping can make an ordinary picture look exciting
+
+### Grid
+
+https://www.amazon.com/Making-Breaking-Second-Updated-Expanded/dp/163159284X
+
+**Anchoring**
+
+![image-20201211154555634](img/image-20201211154555634.png)
+
+### Layout Tools
+
+- Photoshop (Adobe) - old and trusted
+- Illustrator (Adobe) - old and trusted
+- Sketch - https://www.sketch.com/ - more modern, used a lot now.
+
+Doing it outside of the Browser is recommended! 
+
+### Photoshop Keyboad Shortcuts (skipped)
+
+### Layout and Composition Demo
+
+![image-20201211160217059](img/image-20201211160217059.png)
+
+### Primitive Shapes Exercise 
+
+watched video
+
+### Primitive Shapes Review 
+
+example - design on paper
+
+![image-20201211160839071](img/image-20201211160839071.png)
+
+## CSS Layout
+
+### Layout in CSS
+
+Getting into some code now
+
+Expert on Grids: [YT - Rachel Andrew](https://www.youtube.com/channel/UCJ0_R6U3ZClQDGpVJNjuPAQ), https://rachelandrew.co.uk/
+
+Game to learn Grids - http://cssgridgarden.com/
+
+//todo!
+
+https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/
+
+### CSS Grid Demo
+
+[Codepen - CSS Grid 1](https://codepen.io/sdras/pen/54dcd199a9f3dbf851b9a8f9c706b8f7)
+
+[Codepen - CSS Grid 2](https://codepen.io/sdras/pen/927251d94ada804fea3af69537dbe212)
+
+### Grid Naming Example
+
+https://frontendmasters.com/courses/design-for-developers/grid-naming-example/
