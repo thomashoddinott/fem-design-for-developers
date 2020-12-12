@@ -1,14 +1,13 @@
----
-typora-copy-images-to: img
----
-
 # Design For Developers - Sarah Drasner
 
 https://github.com/sdras/design-for-developers
 
 Final codepen: https://codepen.io/sdras/pen/LXgmvq
 
+## Contents
+
 - [Design For Developers - Sarah Drasner](#design-for-developers---sarah-drasner)
+  - [Contents](#contents)
   - [Introduction](#introduction)
     - [Right vs. Left Brain](#right-vs-left-brain)
     - [What this Course Is & Setup](#what-this-course-is--setup)
@@ -70,7 +69,6 @@ Final codepen: https://codepen.io/sdras/pen/LXgmvq
     - [Motion Design Language](#motion-design-language)
     - [Types of Prototypes](#types-of-prototypes)
     - [Page Transitions](#page-transitions)
-
 ## Introduction
 
 ### Right vs. Left Brain
