@@ -6,9 +6,70 @@ typora-copy-images-to: img
 
 https://github.com/sdras/design-for-developers
 
-//todo - find a TOC generator?
+Final codepen: https://codepen.io/sdras/pen/LXgmvq
 
-https://dribbble.com/
+- [Design For Developers - Sarah Drasner](#design-for-developers---sarah-drasner)
+  - [Introduction](#introduction)
+    - [Right vs. Left Brain](#right-vs-left-brain)
+    - [What this Course Is & Setup](#what-this-course-is--setup)
+    - [Perfection](#perfection)
+    - [Designer vs Developer](#designer-vs-developer)
+    - [Introduction to Layout Grids](#introduction-to-layout-grids)
+    - [Balance & Symmetry](#balance--symmetry)
+    - [Asymmetry](#asymmetry)
+    - [Exploring Asymmetry: Learning from Art History](#exploring-asymmetry-learning-from-art-history)
+    - [Shape](#shape)
+    - [Scale & Cropping](#scale--cropping)
+    - [Grid](#grid)
+    - [Layout Tools](#layout-tools)
+    - [Photoshop Keyboad Shortcuts (skipped)](#photoshop-keyboad-shortcuts-skipped)
+    - [Layout and Composition Demo](#layout-and-composition-demo)
+    - [Primitive Shapes Exercise](#primitive-shapes-exercise)
+    - [Primitive Shapes Review](#primitive-shapes-review)
+  - [CSS Layout](#css-layout)
+    - [Layout in CSS](#layout-in-css)
+    - [CSS Grid Demo](#css-grid-demo)
+    - [Grid Naming Example](#grid-naming-example)
+    - [CSS Flexbox](#css-flexbox)
+    - [Using ClipPath & Other Masking Tools](#using-clippath--other-masking-tools)
+    - [CSS Writing Mode](#css-writing-mode)
+    - [Grid By Example Demo](#grid-by-example-demo)
+  - [Colour Modes](#colour-modes)
+    - [Colour Mixing](#colour-mixing)
+    - [Colour Modes and Properties](#colour-modes-and-properties)
+    - [Colour in Code](#colour-in-code)
+    - [Colour Variables](#colour-variables)
+    - [Limited Colour](#limited-colour)
+    - [Colour Tools](#colour-tools)
+    - [Animated Gradient](#animated-gradient)
+    - [How to Create a Palette](#how-to-create-a-palette)
+    - [Data Visualisation with HSLA Example](#data-visualisation-with-hsla-example)
+    - [Creating a Palette Demo](#creating-a-palette-demo)
+  - [Typography](#typography)
+    - [Typography Basics](#typography-basics)
+    - [Typography Resources](#typography-resources)
+    - [Pairing Fonts](#pairing-fonts)
+    - [Typography For Lawyers](#typography-for-lawyers)
+    - [Typographic Colour](#typographic-colour)
+    - [Terminology](#terminology)
+    - [Typography Demo](#typography-demo)
+    - [Exercise and Q&A](#exercise-and-qa)
+  - [Inspiration](#inspiration)
+    - [Remixing](#remixing)
+    - [Sources of Inspiration](#sources-of-inspiration)
+    - [UI Kit Demo](#ui-kit-demo)
+  - [Image Formats & Resources](#image-formats--resources)
+    - [Exporting Tips](#exporting-tips)
+    - [SVG](#svg)
+    - [SVG Handling and Full Page Background](#svg-handling-and-full-page-background)
+    - [Images Demo: Image Overlay Effects](#images-demo-image-overlay-effects)
+    - [Layout Demo: Coding Compositions](#layout-demo-coding-compositions)
+  - [Prototyping](#prototyping)
+    - [Loaders](#loaders)
+    - [User Experience & Tools](#user-experience--tools)
+    - [Motion Design Language](#motion-design-language)
+    - [Types of Prototypes](#types-of-prototypes)
+    - [Page Transitions](#page-transitions)
 
 ## Introduction
 
@@ -601,5 +662,131 @@ we don't transfer `tiff, raw, psd` over the web!
 
 ### SVG
 
+SVG is awesome
 
+![image-20201212211824151](img/image-20201212211824151.png)
+
+Easy to work in the DOM
+
+Small (a few KBs) - depends on # path points
+
+Drawing shapes, lines - cheap
+
+Using for textures - expensive
+
+https://css-tricks.com/high-performance-svgs/
+
+Super cool SVG animation - https://codepen.io/sdras/pen/waXKPw
+
+https://codepen.io/shshaw/full/LVKEdv
+
+JPNG.svg - https://codepen.io/shshaw/full/LVKEdv - uses SVG to shrink PNGs
+
+### SVG Handling and Full Page Background
+
+https://css-tricks.com/masking-vs-clipping-use/
+
+Cool codepen - https://codepen.io/noeldelgado/pen/ByxQjL
+
+https://css-tricks.com/perfect-full-page-background-image/
+
+### Images Demo: Image Overlay Effects
+
+(goes through demo on Photoshop)
+
+### Layout Demo: Coding Compositions
+
+(goes through demo)
+
+![noun_Circle_165109](img/noun_Circle_165109.svg)
+
+then got src from svgomg:
+
+```css
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125"><path d="M33.8 89.3c-11.2-2.8-21-21-17.6-33.2-.9-11.9-.7-23.1 3.6-32.5 2-2.6 4.1-5.4 6.5-8.1.2-.2.3-.8.2-.8 14.3-11 32.6-10.2 43.1-3.2 7.5 5 15.4 20 14.9 30.6-.2 4.6-1.3 8.7-3.6 12.8 2 10.3-.6 19.2-6.5 26.3-.1.1-.5.3-.7.3 4.9-6.7 7.5-14.4 6.5-23.6-.1-.6-.9 1.2-1-.3 0 .1-.2.2-.3.3-6.6 13.3-29.4 19.6-40.6 11.9-6.2-1.4-11.5-4.5-15.6-10.5-.3-.4-1-.2-1 .4 1.3 8.2 7.2 13.2 12.1 16.5.8.6-.2.2-.8 0-4.7-2-9.1-6.4-13-11.4.2 10.1 7.3 19.1 13.3 24 .2 0 .5.3.5.5m5.3-52.8c-.4 1.1-.7.5-.8.4C30.1 40.4 26 46 24.2 52.4c-.2.7-.1 1.5.2 2.2 2.9 5.8 7 9.3 10.9 12.7 10 8.8 32.5 4.6 41.1-8 .8-1.1 1-2.7 1.8-3.8 1.1-1.4.9-3.4 0-5.2C72 38.1 61.2 34.9 50 34c-2.1-.2-4.4-.3-6.9.8-1.4.5-3.6.8-4 1.7m-3.6-12.8c-2.9 1.5-4.1 3.9-6 6-1 1.9-2.6 3.4-3.2 5.5-.3.8-1.3 2.1-.5 2.8 2.3-2.6 5-5.1 9-6.4 16.6-5.6 30.6-3 40.1 8.6 1.5 3.2 3.3 6.5 4.3 9.8.1.3.3 2.3.8 1.1.6-1.5.7-3.1.6-4.6l-.8-4.5-3.2-8.2c-8.8-13.4-23.9-19.4-41.1-10.1M40 15c-1 .5-2 1.2-2.9 1.8-1 .7-2.5 1.4-2.7 2.9 16.1-6.1 28.5-2.5 37.9 6.7 2.6 2.6 4.6 6.5 6.4 10.3 1.3 2.7 1.6 5.9 2.7 9.3.6-4.9-.1-9.6-1.4-14.8-.8-1-1.2-2.6-2.1-4.1C69.6 13.9 56 7.9 40 15m9 78.5c3.8-.4 7.9-1.2 12.2-2.9 3.3-1.3 5.9-3.3 8.8-4.8-4.9 5.1-14.4 8.1-21 7.7m21-7.7c0-.1.1-.4.2-.4.5-.5 1-1.1 1.7-1.2-.3.8-1.3 1.1-1.9 1.6m-24 7.3c.7-.7 1.5.2 2.3.2-.8.8-1.6-.2-2.3-.2"/><text y="115" font-size="5" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Richard Slade</text><text y="120" font-size="5" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+```
+
+## Prototyping
+
+### Loaders
+
+Humans over-estimate *passive* waits by 36%
+
+passive = nothing's happening
+
+So, if you add say a loader, people think it loads quicker and they'll wait longer for a custom experience
+
+Uncertain waits are longer than known, finite waits. That's what they do at amusement parks, for example: "This queue is 30 minutes"
+
+### User Experience & Tools
+
+https://css-tricks.com/writing-feature-requirements/
+
+^ User Stories?
+
+*As [identify the user], I expect that [describe the task], so that [explain the anticipated outcome]*
+
+https://medium.com/design-story/story-map-3cc64033128e
+
+![image-20201212215507439](img/image-20201212215507439.png)
+
+End to end website flows: 
+
+![image-20201212215603512](img/image-20201212215603512.png)
+
+### Motion Design Language
+
+https://codepen.io/sdras/pen/JbaGwg
+
+Great examples out there already
+
+But people tend to associate styles with a brand, so if you copy one, they'll think of that brand too.
+
+### Types of Prototypes
+
+**Thumbnails** - Really quick ideas and messages to yourself to help yourself understand something fast.
+
+![image-20201212215939744](img/image-20201212215939744.png)
+
+**Storyboards** - More commitment. One level up from thumbnails
+
+![image-20201212220148019](img/image-20201212220148019.png) 
+
+**Low-fi Prototype**
+
+https://codepen.io/sdras/pen/594d891abedf804e87bffe48ee30aace
+
+![image-20201212220322030](img/image-20201212220322030.png) 
+
+Another cool low-fi prototype: https://codepen.io/yusufbkr/pen/ORBArk
+
+**High-fi Prototype** 
+
+https://codepen.io/sdras/pen/2ae1eadb3a80e26daf3aae54cd148c61
+
+**Screenshot and Absolutely Position** - ???
+
+### Page Transitions
+
+https://css-tricks.com/native-like-animations-for-page-transitions-on-the-web/
+
+Awesome example - https://pagetransitions.netlify.app/
+
+https://rallyinteractive.com/ - top notch transitions and animations
+
+![image-20201212221128912](img/image-20201212221128912.png) 
+
+https://tympanus.net/Development/PageFlipLayout/ - demos with github repo :thumbsup:
+
+![image-20201212221346904](img/image-20201212221346904.png)
+
+also here - https://tympanus.net/codrops/
+
+https://github.com/davidkpiano/flipping
+
+![image-20201212221701975](img/image-20201212221701975.png) 
+
+works out animation (stuff in the middle of beginning and end state)
+
+Vue only?
 
