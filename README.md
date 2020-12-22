@@ -1,5 +1,7 @@
 # Design For Developers - Sarah Drasner
 
+My notes from the course.
+
 https://github.com/sdras/design-for-developers
 
 Final codepen: https://codepen.io/sdras/pen/LXgmvq
